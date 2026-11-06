@@ -1,5 +1,5 @@
 {
-    "name": "xqkeji/xq-com-tinymce",
+    "name": "xqkeji/xq-res-tinymce",
     "description": "新齐通用后台管理页面系统的使用的在线编辑器tinymce的js、css等前端程序的composer包。",
     "type": "library",
     "license": "MIT",
@@ -18,7 +18,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-tinymce/src/":"resource/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"resource/tinymce/"
                 }]
             }
         ],
@@ -26,13 +26,13 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-tinymce/src/":"resource/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"resource/tinymce/"
                 }]
             },
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-tinymce/src/":"resource/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"resource/tinymce/"
                 }]
             }
         ],
@@ -40,7 +40,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-tinymce/src/":"resource/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"resource/tinymce/"
                 }]
             }
         ]
