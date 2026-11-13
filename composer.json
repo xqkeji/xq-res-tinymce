@@ -18,7 +18,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-tinymce/src/":"www/assets/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"www/asset/tinymce/"
                 }]
             }
         ],
@@ -26,13 +26,13 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-tinymce/src/":"www/assets/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"www/asset/tinymce/"
                 }]
             },
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-tinymce/src/":"www/assets/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"www/asset/tinymce/"
                 }]
             }
         ],
@@ -40,7 +40,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-tinymce/src/":"www/assets/tinymce/"
+                    "vendor/xqkeji/xq-res-tinymce/src/":"www/asset/tinymce/"
                 }]
             }
         ]
